@@ -3,8 +3,6 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 import os, game_of_life, imageio
-
-# Install Pillow, pathlib, and imageio
  
 def text_on_img(filename='01.png', text="Test", size=50, color=(30,144,255)):
     """
